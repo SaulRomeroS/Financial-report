@@ -29,5 +29,6 @@ def parse_file(csv_file: str):
                 tolls_amount=float(row["total_amount"])
             )
             
-
+        rides.append(ride)
+        return rides
 
